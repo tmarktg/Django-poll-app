@@ -1,5 +1,6 @@
 # Django Poll App
 
+<img src="./polls/static/polls/images/polls-project.PNG">
 ![App Screenshot](app_screenshot.png)
 
 ## Description
