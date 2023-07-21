@@ -17,33 +17,33 @@ Django Poll App is a web application built with Django that allows users to crea
 
 Follow these steps to set up the Django Poll App on your local machine:
 
-# Clone the repository:
+### Clone the repository:
 
 git clone https://github.com/your-username/django-poll-app.git
 cd django-poll-app
 
-# Create a virtual environment and activate it
+### Create a virtual environment and activate it
 
 python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
-# Install the required dependencies
+### Install the required dependencies
 
 pip install -r requirements.txt
 
-# Apply database migrations
+### Apply database migrations
 
 python manage.py migrate
 
-# Create a superuser to access the admin interface
+### Create a superuser to access the admin interface
 
 python manage.py createsuperuser
 
-# Start the development server
+### Start the development server
 
 python manage.py runserver
 
-# Open your browser and go to http://localhost:8000 to access the app.
+### Open your browser and go to http://localhost:8000 to access the app.
 
 - Note if the python command is red in VSCode, use python3
 
